@@ -2,4 +2,80 @@
 Header background - #FFDBAA
 button - #805215
 Header Text - #553100
-Main background - #D4A76A*/
+Main background - #D4A76A */
+
+button {
+  width: 200px;
+  height: 100px;
+  background-color: #805215;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  /*padding: 10px, 10px, 10px, 10px;*/
+}
+
+header {
+  background-color: #FFDBAA;
+  color: #553100;
+  font-size: 50px;
+  font-weight: bold ;
+  height: 100px;
+  position: sticky;
+  padding: 30px;
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+
+
+}
+
+body {
+  background-color: #D4A76A;
+  margin: 0px;
+
+
+}
+
+#leftbox {
+  width: 16.8%;
+  float: left;
+  background:white;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
+
+}
+#middlebox{
+  width: 430px;
+  float: left;
+  background:white;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
+
+}
+#rightbox{
+  width: 430px;
+  float: left;
+  background:white;
+  margin-left: 200px ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
+
+}
+#widebox{
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+  background-color: white;
+  font-size: 30px;
+  width: 90%;
+  height: 30%;
+
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
+}
